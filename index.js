@@ -33,6 +33,12 @@ function summonCaptainPlanet(planeteerCalls){
 }
 
 function longPlaneteerCalls(words) {
+  const numWords = words.length;
+
+  for (let i = 0; i < numWords; i++)
+    if (words[i].length > 4) return false;
+
+  return true;
 }
 
 function findTheCheese (foods) {
