@@ -36,9 +36,9 @@ function longPlaneteerCalls(words) {
   const numWords = words.length;
 
   for (let i = 0; i < numWords; i++)
-    if (words[i].length > 4) return false;
+    if (words[i].length > 4) return true;
 
-  return true;
+  return false;
 }
 
 function findTheCheese (foods) {
