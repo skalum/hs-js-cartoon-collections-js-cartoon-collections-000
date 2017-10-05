@@ -7,7 +7,7 @@ function dwarfRollCall(dwarves) {
   }
 
   return dwarfString;
-} 
+}
 
 /* Here's how I would do it without the space at the end:
 function dwarfRollCall(dwarves) {
